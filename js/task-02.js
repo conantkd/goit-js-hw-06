@@ -7,7 +7,7 @@ const ingredients = [
   "Condiments",
 ];
 
-const ingredientsUnorganizedList = document.getElementById("ingredients");
+const ingredientsUnorganizedList = document.getElementById('ingredients');
 ingredients.forEach((ingredient) => {
   const ingredientList = document.createElement("li");
   ingredientList.textContent = ingredient;
